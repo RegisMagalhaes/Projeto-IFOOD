@@ -107,5 +107,11 @@ header{
     border: lightslategray;
 }
 .coluna{
+    padding:20px;
+    display: flex;
+    justify-content: space-around;
+}
+.ultimas{
+    display: flex;
     
 }
