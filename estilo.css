@@ -1,0 +1,111 @@
+/* Configuração da página inteira */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Corpo da página */
+body{
+    background-color: white;
+}
+/* Estilização do Cabeçalho */
+header{
+    width: 100%;
+    height: 55px;
+    background-color: rgb(245, 243, 244);
+}
+/* Estilização do menu */
+.menu{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color: rgb(245, 243, 244);
+    width: 650px;
+    height: 55px;
+    margin-left: 920px;
+    padding: 30px;
+    
+    
+}
+
+.menu a{
+    color: #3e3e3e;
+    text-decoration: none;
+
+}
+/* Elementos do menu */
+.elementos{
+    padding: 20px;
+}
+
+.botão{
+    width: 150px;
+    background-color: white;
+    height: 50px;
+    color: red;
+    border: solid 1px silver;
+
+}
+.botão:hover{
+    background-color: red;
+    color: white;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "SulSans", Helvetica, sans-serif;
+    font-size:2.5rem ;
+    background-color: rgb(245, 243, 244);
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.corletra{
+    color: red;
+    font-weight: bolder;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    /* background-color: royalblue; */
+    justify-content: space-between;
+}
+
+
+.button{
+    width: 168px;
+    height: 50px;
+    background-color: red;
+    border: 0px;
+
+}
+.entrada{
+    width: 580px;
+    height: 50px;
+}
+.linkrest a{
+    padding: 6px;
+    font-size: 16px;
+    border:solid 1px slategray;
+    border-radius: 5px;
+    color: slategray;
+    text-decoration: none;
+}
+.bolder{
+    font-weight: bolder;
+}
+.pequeno{
+    font-size: 32px;
+    padding: 10px;
+    border: lightslategray;
+}
+.coluna{
+    
+}
